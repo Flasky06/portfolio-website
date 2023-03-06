@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from 'next/router';
 import NavLogo from "../public/assets/navLogo.png";
+import Logo from "../public/assets/Logo.png";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -58,7 +59,7 @@ const Navbar = () => {
 				<Link href="/">
 					<a>
 						<Image
-							src={NavLogo}
+							src={Logo}
 							alt="/"
 							width="125"
 							height="50"
